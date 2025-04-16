@@ -1,0 +1,10 @@
+compilation_database_dir: build
+output_directory: report/diagram
+
+diagrams:
+  class_diagram:
+    type: class
+    glob:
+      - src/**/*.cpp
+      - src/**/*.h
+
