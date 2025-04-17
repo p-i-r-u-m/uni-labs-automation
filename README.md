@@ -96,8 +96,8 @@ cd lab_templ/report/lab-<number>
 5. **Build & test your solution**
 
 ```bash
+./0test.sh      # create template for unit test (alpha, don't stable)
 ./1build.sh     # compiles C++ code and auto-generates UML
-./0test.sh      # runs GoogleTest unit tests
 ./2run.sh       # builds & runs code + tests in one step
 ```
 
